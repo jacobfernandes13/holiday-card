@@ -1,0 +1,134 @@
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Cookie&display=swap" rel="stylesheet">
+    <style>
+     body {
+      width: 100%;
+      height: 100vh;
+      perspective: 1200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background-image: url(https://themepack.me/i/c/749x468/media/g/680/christmas-theme-vr1.jpg);
+      background-size: cover;
+    }
+
+    .card {
+      transform-style: preserve-3d;
+      position: relative;
+	  width:200px;
+      height: 300px;
+      cursor: pointer;
+	  margin-right:400px;
+	  margin-top:100px;
+    }
+
+    h1 {
+      font-family: 'Cookie', serif;
+      font-size: 40px;
+      margin-top: 40px;
+      color: white;
+    }
+
+    h5 {
+      font-family: 'Cookie', serif;
+    }
+
+    p {
+      font-size: 10px;
+    }
+
+    img{
+      margin-top: 235px;
+	  margin-left:110px;
+      width: 90px;
+      transform: scaleX(-1);
+    }
+
+    .page, .front {
+      background: url(https://media.giphy.com/media/H7CMFJZYeSg441HipF/giphy.gif);
+      background-size: cover;
+    }
+
+    .message {
+      margin-top: 30px;
+      color: #900909;
+	  font-size:30px;
+    }
+
+    .front, .back, .page {
+      transform-style: preserve-3d;
+      transform-origin: left center;
+      transition: transform .5s ease-in-out, box-shadow .5s ease-in-out;
+      position: absolute;
+      width: 200px;
+      height: 100%;
+      top: 0; 
+      left: 0;
+      background-color: #F7F7F7;
+      padding: 40px;
+    }
+
+    .card:hover .front {
+      transform: rotateY(-160deg);
+      box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+
+    .card:hover .page {
+      transform: rotateY(-159deg);
+      box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+
+    .card:hover .back {
+      transform: rotateY(-20deg);
+      box-shadow: 0 1em 3em 0 rgba(0, 0, 0, .2);
+    }
+	
+p{
+font-size:15;
+}
+
+	
+    </style>
+  </head>
+  
+  
+  
+  
+  <body>
+  <div class="corners">
+    <div class="card">
+      <div class="back">
+          <div class="message">
+            <h5>Dear Friends and Family,</h5>
+            <p>“Maybe Christmas, he thought, doesn’t come from a store. Maybe Christmas… perhaps… means a little bit more!” – Dr. Seuss, remember the reason for the season</p>
+            <h5 class="cookie">Jacob</h5>
+          </div>
+      </div>
+      <div class="page">
+          <img src="https://sciencemadefun.net/blog/wp-content/uploads/2011/12/present-150291_1280-293x300.png" >
+      </div>
+      <div class="front">
+          <h1>Merry Christmas!</h1>
+      </div>
+    </div>
+	</div>
+	
+   </head>
+   
+   <embed name="Jingle Bell Rock" src="Jingle Bell Rock-.mp3" loop="false" hidden="true" autostart="true">
+   
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Paragraph changed.";
+}
+</script>
+  
+
+
+  </body>
+</html>
+
+
+
